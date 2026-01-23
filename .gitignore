@@ -1,0 +1,31 @@
+# Unreal Engine 核心忽略
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+
+# 编译产物
+*.obj
+*.pch
+*.ilk
+*.meta
+
+# 日志和临时文件
+*.log
+*.tmp
+
+# 开发者文件夹（个人测试内容）
+Content/Developers/*
+
+# 可选：如果 MetaHumans 太大可以忽略
+Content/MetaHumans/
+
+
+# Git LFS 相关（如果使用）
+.gitattributes

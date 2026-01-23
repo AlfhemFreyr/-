@@ -158,3 +158,51 @@
 
 —— **周子舜  北京航空航天大学**
  腾讯游戏客户端菁英班 · 大作业项目
+
+## 附录：项目资产说明
+
+## 🎮 项目资产说明
+
+### 📁 已包含的核心资产
+本项目仓库已包含所有核心游戏系统和自定义资产：
+
+#### **游戏逻辑与系统**
+- **`Content/Blueprints/`** - 所有游戏逻辑蓝图
+- **`Content/Input/`** - 输入控制系统
+- **`Content/Widgets/`** - 用户界面组件
+
+#### **角色与动画**
+- **`Content/Characters/`** - 主要角色模型与动画
+- **`Content/FirstPerson/`** - 第一人称视角系统
+- **`Content/FirstPersonArms/`** - 第一人称手臂模型
+- **`Content/FPWeapon/`** - 第一人称武器系统
+- **`Content/Mixamo/`** - **自定义动画资源**
+
+#### **音频与效果**
+- **`Content/Audio/`** - 游戏音效与背景音乐
+- **`Content/Sounds/`** - 额外音效资源
+- **`Content/Boom/`** - **自定义特效/音效系统**
+
+#### **道具与数据**
+- **`Content/AmmoBox/`** - 游戏道具系统
+- **`Content/__ExternalActors__/`** - 外部Actor数据
+- **`Content/__ExternalObjects__/`** - 外部对象引用
+
+### ⬇️ 需要额外下载的资产
+由于文件体积限制，以下大型资源需要单独下载，均可在Fab商城按名称检索到：
+
+#### 1. **环境场景 - 必需**
+- **`Content/DerelictCorridor/`** - 主要游戏场景环境
+- **作用**: 包含走廊场景的所有模型、材质和光照
+
+#### 2. **枪械资产 - 必需**
+- **`Content/guns/`** - 武器
+- **作用**: 枪械模型、射击动画、换弹动画和特效
+
+#### 3. **高级角色 - 可选**
+- **`Content/MetaHumans/`** - 高精度数字人类角色
+- **作用**: 高质量NPC角色模型（非必须）
+
+- **`Content/ParagonCountess/`** - Epic Fab商城角色
+- **作用**: 女性角色模型（可替换为其他角色）
+
